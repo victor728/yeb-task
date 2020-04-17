@@ -1,11 +1,12 @@
 import React from 'react';
-import './ToDoList.css';
+import Classes from './ToDoList.css';
+
 
 const ToDoList = (props) =>{
 
   return(
-        <div className="Todolist">  
-            <p>{props.day}: {props.activity}</p>{props.children}
+        <div className={Classes.Todolist}>  
+            <p onClick={props.click}>{props.day}: {props.activity}</p>{props.children}
         </div>
     ); 
       

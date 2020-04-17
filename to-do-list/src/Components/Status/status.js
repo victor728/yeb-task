@@ -7,21 +7,17 @@ class status extends Component{
        };
 
        statusHandler=()=>{
-        this.setState({
-            status: 'Done'
-        }
-        );
+        this.setState({status: 'Done'});
        };
 
 
     render(){
         return(
-            <di>
+            <div>
                 {this.state.status}
-            <button type="checkbox" onClick={this.statusHandler}>click here</button>
-            </di>
-
-        );
+              <button onClick={this.statusHandler}>click here</button>
+            </div>
+       );
     }
 }
 
