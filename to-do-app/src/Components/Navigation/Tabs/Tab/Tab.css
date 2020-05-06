@@ -1,0 +1,52 @@
+.Tab{
+    width: 30%;
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.Tab a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 2px;
+}
+.Tab a:hover,
+.Tab a:active,
+.Tab a.active {
+    color: red; 
+}
+
+    @media (min-width:500px){
+        .Tab{
+            margin: 0 2px;
+            display: flex;
+            height: 80%;
+            width: auto;
+            align-items: center;
+
+        }
+        
+        .Tab a {
+            color:black;
+            height: 100%;
+            padding: 16px 10px;
+            border-bottom: 4px solid transparent;
+           
+        }
+         
+        .Tab a:hover,
+        .Tab a:active,
+        .Tab a.active {
+            background-color: #8F5C2C;
+            border-bottom: 2px solid #fff;
+            color: black; 
+        }
+    }
+

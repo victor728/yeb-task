@@ -1,0 +1,6 @@
+.TaskOverdue{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: slategrey;
+    box-shadow: 2px 3px #eee;
+}

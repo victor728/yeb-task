@@ -1,0 +1,6 @@
+.TaskDone{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 2px 3px #eee;
+    background-color: slategrey;
+}
